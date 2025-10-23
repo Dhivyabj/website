@@ -1,16 +1,30 @@
-# React + Vite
+ Dhivya Dharshni — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This site showcases my journey as a Computer Science undergraduate, frontend developer, and creative technologist. Built with React, Vite, and Tailwind CSS, it reflects my passion for vibrant UI/UX, real-world projects, and continuous learning.
 
-Currently, two official plugins are available:
+Live Demo
+Check it out here: [https://your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+- Frontend: React, Vite
+- Styling: Tailwind CSS
+- Deployment: Vercel
+- Version Control: Git & GitHub
 
-## React Compiler
+ Features
+- Responsive layout with custom gradients and animated icons
+- Interactive card components with hover effects
+- Smooth navigation and scroll behavior
+- Modular component structure for scalability
+- Accessible design with semantic HTML and ARIA labels
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Folder Structure
 
-## Expanding the ESLint configuration
+src/ ├── assets/          # Images, icons, and media ├── components/      # Reusable UI components ├── pages/           # Main sections (Home, About, Projects, Contact) ├── styles/          # Tailwind config and custom styles ├── App.jsx          # Root component └── main.jsx         # Entry point
+How to Run Locally
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

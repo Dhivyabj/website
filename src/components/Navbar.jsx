@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin, FaTelegram} from "react-icons/fa"
+import {FaGithub, FaLinkedin, FaTelegramPlane} from "react-icons/fa"
 import logo from "../assets/dhivyaLogo.webp"
  
 const  Navbar = () =>  {
@@ -13,21 +13,22 @@ const  Navbar = () =>  {
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
           <a href="https://www.linkedin.com/in/dhivyadharshni-bj/"
             target="_blank"
+            
             rel="noopener noreferrer"
             aria-label="LinkedIn">
               <FaLinkedin />
           </a>
-           <a href="https://github.com/Dhivyabj"
+           <a href="https://github.com/Dhivyabj" 
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub">
               <FaGithub />
             </a>
-             <a href=""
+             <a href="https://t.me/Dhivya_1506"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Telegram">
-              <FaTelegram />
+              <FaTelegramPlane />
             </a>
 
 
